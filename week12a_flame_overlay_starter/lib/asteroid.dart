@@ -9,7 +9,6 @@ import 'package:flame/components.dart';
 /// The size, position, and velocity are randomized.
 /// The update method ensures the asteroid stays on screen and bounces off the walls.
 ///
-
 class Asteroid extends SpriteComponent with HasGameRef {
   late Vector2 velocity;
 
