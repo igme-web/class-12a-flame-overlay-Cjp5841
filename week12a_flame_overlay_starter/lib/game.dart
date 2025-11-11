@@ -16,7 +16,6 @@ import 'asteroid.dart';
 /// - the game spawns 10 asteroids that are unmanaged.
 /// - the game uses TapCallbacks to handle tap events. Nothing happens yet.
 ///
-
 class OverlayTutorial extends FlameGame with TapCallbacks {
   final BuildContext context;
 
